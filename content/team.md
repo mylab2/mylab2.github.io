@@ -30,7 +30,7 @@ title: "Team"
     </p>
   </div>
   <div class="member">
-    <img src="/images/team/abuzar-rezaee.svg" alt="Abuzar Rezaee">
+    <img src="/images/team/abuzar.jpeg" alt="Abuzar Rezaee">
     <h4>Abuzar Rezaee</h4>
     <p>Research Assistant</p>
     <p class="links">
