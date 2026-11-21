@@ -21,7 +21,7 @@ title: "Team"
 
 <div class="team-grid">
   <div class="member">
-    <img src="/images/team/shahabedin-nabavi.svg" alt="Dr Shahabedin Nabavi">
+    <img src="/images/team/shahab.jpg" alt="Dr Shahabedin Nabavi">
     <h4>Dr Shahabedin Nabavi</h4>
     <p>Research Associate</p>
     <p class="links">
@@ -39,7 +39,7 @@ title: "Team"
     </p>
   </div>
   <div class="member">
-    <img src="/images/team/reza-akbari-movahed.svg" alt="Reza Akbari Movahed">
+    <img src="/images/team/reza.jpeg" alt="Reza Akbari Movahed">
     <h4>Reza Akbari Movahed</h4>
     <p>PhD Student, Computing Science</p>
     <p class="links">
