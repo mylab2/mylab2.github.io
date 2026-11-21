@@ -1,0 +1,12 @@
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="{{ "/" | relURL }}" class="logo"><img src="{{ site.Params.logo | relURL }}" alt="{{ site.Title }} logo"></a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle"><label for="nav-toggle" class="nav-burger">&#9776;</label>
+    <nav>
+      {{ $current := . }}
+      {{ range site.Menus.main }}
+        <a href="{{ .URL | relURL }}" {{ if or ($current.IsMenuCurrent "main" .) (eq $current.RelPermalink .URL) }}class="active"{{ end }}>{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>

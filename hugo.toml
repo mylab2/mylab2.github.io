@@ -1,0 +1,36 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Gooya Lab"
+
+[params]
+  description = "Probabilistic deep learning for medical image analysis — University of Glasgow"
+  logo = "/images/logo.svg"
+  banner = "/images/banner.svg"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  name = "Team"
+  url = "/team/"
+  weight = 2
+[[menu.main]]
+  name = "Research"
+  url = "/research/"
+  weight = 3
+[[menu.main]]
+  name = "Publications"
+  url = "/publications/"
+  weight = 4
+[[menu.main]]
+  name = "Event"
+  url = "/event/"
+  weight = 5
+[[menu.main]]
+  name = "Join Us"
+  url = "/join-us/"
+  weight = 6
+
+[markup.goldmark.renderer]
+  unsafe = true

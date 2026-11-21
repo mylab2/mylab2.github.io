@@ -1,0 +1,29 @@
+{{ define "main" }}
+<img class="banner" src="{{ site.Params.banner | relURL }}" alt="{{ site.Title }} banner">
+
+<section class="content">{{ .Content }}</section>
+
+{{ with site.Data.director }}
+<section class="director">
+  <img src="{{ .photo | relURL }}" alt="{{ .name }}">
+  <div>
+    <h3>{{ .name }}</h3>
+    {{ range .roles }}<p>{{ . }}</p>{{ end }}
+    <p class="links">
+      {{ with .email }}<a href="mailto:{{ . }}">✉️ Email</a>{{ end }}
+      {{ with .homepage }}<a href="{{ . }}" target="_blank" rel="noopener">🏠 Homepage</a>{{ end }}
+      {{ with .scholar }}<a href="{{ . }}" target="_blank" rel="noopener">🎓 Scholar</a>{{ end }}
+    </p>
+  </div>
+</section>
+{{ end }}
+
+<section class="news">
+  <h2>📰 News</h2>
+  <ul>
+    {{ range site.Data.news }}
+    <li><span class="date">{{ .date }}</span> {{ .text | markdownify }}</li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
