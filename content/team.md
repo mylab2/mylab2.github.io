@@ -6,7 +6,7 @@ title: "Team"
 
 <div class="team-grid">
   <div class="member">
-    <img src="/images/team/ali-gooya.svg" alt="Dr Ali Gooya">
+    <img src="/images/team/ali.jpeg" alt="Dr Ali Gooya">
     <h4>Dr Ali Gooya</h4>
     <p>Senior Lecturer in Machine Learning</p>
     <p class="links">
